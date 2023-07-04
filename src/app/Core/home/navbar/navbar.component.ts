@@ -69,6 +69,11 @@ export class NavbarComponent implements OnInit {
         name: 'ERWTW',
         url: '123123',
         icon: 'refresh'
+      },
+      {
+        name: 'subir_nomina',
+        url: 'nomina',
+        icon: 'settings_account_box'
       }
     ]
 

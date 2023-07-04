@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { ExtendModalComponent } from '../Components/extend-modal/extend-modal.component';
+import { SubirNominaComponent } from './nomina/subir-nomina/subir-nomina.component';
 
 
 
@@ -22,7 +23,8 @@ import { ExtendModalComponent } from '../Components/extend-modal/extend-modal.co
     ProyectoFormativoComponent,
     ProyectoFormativoModalComponent,
     AreasComponent,
-    AreasModalComponent
+    AreasModalComponent,
+    SubirNominaComponent
 
 
   ],

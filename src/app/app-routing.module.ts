@@ -8,6 +8,7 @@ import { ProgramaFormativoComponent } from './Modules/Components/programa-format
 import { AreasComponent } from './Modules/Pages/areas-view/areas/areas.component';
 import { ProyectoFormativoComponent } from './Modules/Pages/proyecto-formativo-view/proyecto-formativo/proyecto-formativo.component';
 import { PerfilComponent } from './Modules/Pages/perfil/perfil.component';
+import { SubirNominaComponent } from './Modules/Pages/nomina/subir-nomina/subir-nomina.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path:"123123",
         component: PerfilComponent
+      },
+      {
+        path:"nomina",
+        component: SubirNominaComponent
       }
 
       
