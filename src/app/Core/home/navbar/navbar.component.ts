@@ -74,6 +74,11 @@ export class NavbarComponent implements OnInit {
         name: 'subir_nomina',
         url: 'nomina',
         icon: 'settings_account_box'
+      },
+      {
+        name: 'Generar_Certificado',
+        url: 'certificadolaboral',
+        icon: 'settings_account_box'
       }
     ]
 
