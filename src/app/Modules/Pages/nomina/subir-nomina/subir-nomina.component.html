@@ -1,2 +1,9 @@
-<input type="file" (change)="onFileSelected($event)" />
-<button type="button" (click)="onUpload()">Subir archivo</button>
+<div class="file-input-wrapper">
+    <input type="file" (change)="onFileSelected($event)" />
+    <label></label>
+</div>
+  
+<div class="button-wrapper">
+    <button type="button" (click)="onUpload()">Subir archivo</button>
+</div>
+  
