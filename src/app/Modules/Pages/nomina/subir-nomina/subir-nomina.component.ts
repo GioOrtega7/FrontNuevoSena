@@ -5,6 +5,8 @@ import { CoreService } from 'src/app/shared/services/core.service';
   templateUrl: './subir-nomina.component.html',
   styleUrls: ['./subir-nomina.component.css']
 })
+
+
 export class SubirNominaComponent {
   selectedFile: File | undefined;
 
@@ -38,4 +40,15 @@ export class SubirNominaComponent {
       console.log('No se ha seleccionado ningún archivo');
     }
   }
+
+  pruebapdf(){
+    const url='http://127.0.0.1:8000/api/pdfprueba';
+    window.open(url);
+  }
+
+  
+
+
+
+  
 }
