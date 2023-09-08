@@ -79,6 +79,11 @@ export class NavbarComponent implements OnInit {
         name: 'Generar_Certificado',
         url: 'certificadolaboral',
         icon: 'patient_list'
+      },
+      {
+        name: 'VariosArchivos',
+        url: 'VariosArchivos',
+        icon: 'patient_list'
       }
     ]
 

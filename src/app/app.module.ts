@@ -20,12 +20,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {Component, Inject} from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import { MatNativeDateModule } from '@angular/material/core';
+import { SubirArchivosComponent } from './Modules/Pages/subir-archivos/subir-archivos.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    SubirArchivosComponent,
 
 
   ],

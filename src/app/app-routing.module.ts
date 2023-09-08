@@ -10,6 +10,7 @@ import { ProyectoFormativoComponent } from './Modules/Pages/proyecto-formativo-v
 import { PerfilComponent } from './Modules/Pages/perfil/perfil.component';
 import { SubirNominaComponent } from './Modules/Pages/nomina/subir-nomina/subir-nomina.component';
 import { GenerarCertificadoLaboralComponent } from './Modules/Pages/GenerarCertificadoLaboral/GenerarCertificadoLaboral.component';
+import { SubirArchivosComponent } from './Modules/Pages/subir-archivos/subir-archivos.component';
 
 const routes: Routes = [
   {
@@ -53,7 +54,13 @@ const routes: Routes = [
       {
         path:"certificadolaboral",
         component: GenerarCertificadoLaboralComponent
+      },
+
+      {
+        path:"VariosArchivos",
+        component: SubirArchivosComponent
       }
+
 
       
     ]
